@@ -1,0 +1,13 @@
+/project-root
+    ├── /assets
+    │   ├── /css
+    │   │   └── style.css        # Your custom CSS for styling
+    │   ├── /js
+    │   │   └── script.js        # Your custom JavaScript files
+    │   └── /images
+    │       ├── top-image.jpg    # Image for the top of the profile section
+    │       ├── bottom-image1.jpg # Image for the bottom of the profile section
+    │       └── bottom-image2.jpg # Second image for the bottom
+    ├── /pages
+    │   └── profil.html          # The HTML file for your Profil page
+    └── index.html               # The main landing page (home page)
