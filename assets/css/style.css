@@ -13,38 +13,42 @@ body {
     line-height: 1.6;
 }
 
-header {
-    background-color: #4CAF50;
-    padding: 1em 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+.navbar {
+    background-color: rgba(255, 255, 255, 0.8); /* Transparan */
+    backdrop-filter: blur(10px); /* Efek blur */
+  }
 
-nav ul {
-    list-style-type: none;
-    text-align: center;
-}
+  /* Logo styling */
+  .navbar-brand img {
+    border-radius: 20%; /* Membuat logo menjadi lingkaran */
+    border: 2px solid #333; /* Border di sekitar logo */
+    padding: 3px; /* Jarak dalam logo */
+  }
 
-nav ul li {
-    display: inline-block;
-    margin-right: 20px;
-}
+  /* Navbar links */
+  .navbar-nav .nav-link {
+    font-weight: 500;
+    color: #333; /* Warna teks */
+  }
 
-nav ul li:last-child {
-    margin-right: 0;
-}
+  .navbar-nav .nav-link:hover {
+    color: #0056b3; /* Warna teks saat dihover */
+  }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.1em;
-    padding: 10px 20px;
-    transition: background-color 0.3s ease;
-}
+  /* Responsive logo size */
+  @media (max-width: 768px) {
+    .navbar-brand img {
+      width: 30px;
+      height: 30px;
+    }
+  }
 
-nav ul li a:hover {
-    background-color: #45a049;
-    border-radius: 5px;
-}
+  @media (min-width: 769px) {
+    .navbar-brand img {
+      width: 50px;
+      height: 50px;
+    }
+  }
 #h1 {
     color: black;
     
