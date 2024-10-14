@@ -1,0 +1,20 @@
+.facility-card {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border: 1 px solid #ccc;
+    border-radius: 10px;
+    max-width: 1300px;
+    margin: 20px auto;
+}
+
+.text-container {
+  text-align: center;
+}
+.facility-card img {
+  width: 500px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+

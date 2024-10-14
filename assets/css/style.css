@@ -8,83 +8,53 @@
 }
 
 body {
-    background-color: #f4f4f4;
+    background-color: #29d1bba9;
     color: #333;
     line-height: 1.6;
 }
 
-.navbar {
-    background-color: rgba(255, 255, 255, 0.8); /* Transparan */
-    backdrop-filter: blur(10px); /* Efek blur */
-  }
-
-  /* Logo styling */
-  .navbar-brand img {
-    border-radius: 20%; /* Membuat logo menjadi lingkaran */
-    border: 2px solid #333; /* Border di sekitar logo */
-    padding: 3px; /* Jarak dalam logo */
-  }
-
-  /* Navbar links */
-  .navbar-nav .nav-link {
-    font-weight: 500;
-    color: #333; /* Warna teks */
-  }
-
-  .navbar-nav .nav-link:hover {
-    color: #0056b3; /* Warna teks saat dihover */
-  }
-
-  /* Responsive logo size */
-  @media (max-width: 768px) {
-    .navbar-brand img {
-      width: 30px;
-      height: 30px;
-    }
-  }
-
-  @media (min-width: 769px) {
-    .navbar-brand img {
-      width: 50px;
-      height: 50px;
-    }
-  }
-#h1 {
-    color: black;
-    
-    
+h1, h2, h3 {
+    color: #5a5749;
 }
-#p {
-    color: rgba(109, 123, 115, 0.93);
-}
-/* Hero Section */
-#hero {
-    background: url('../images/sttc.png') no-repeat center center/cover;
-    height: 86vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  h3 {
+    font-size: 24px;
+  }
+
+  
+  /* Warna untuk link */
+  a {
+    color: #0056b3;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #003d80; 
+  }
+  
+  /* Tombol */
+  button {
+    background-color: #0056b3;
     color: white;
-    text-align: center;
-}
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #003d80;
+  }
 
-#hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-}
-
-#hero h1 {
-    font-size: 3rem;
-    margin: 10px 0;
-}
-#hero p {
-    font-size: 1.2em;
-}
-
+  
 /* Footer */
 footer {
     background-color: #333;
@@ -102,11 +72,18 @@ footer p a:hover {
     text-decoration: underline;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     nav ul li {
         display: block;
         margin: 10px 0;
+    }
+    .navbar-brand img {
+        width: 120px;
+        height: 40px;
+      }
+    .navbar-toggler-icon {
+        width: 15px;
+        height: 15px;
     }
 
     #hero h1 {
@@ -116,48 +93,27 @@ footer p a:hover {
     #hero p {
         font-size: 1em;
     }
-}
-/* profil */
-/* Global styles for h1, h2, and p */
-h1, h2, p {
-    text-align: center;
-}
+    .facility-card {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .facility-card img {
+        width: 100%;
+        height: auto;
+    }
 
-/* Profil Section Specific Styles */
-.profil-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding: 20px;
-    text-align: center;
+    .text-container {
+        text-align: center;
+        margin-top: 20px;
+    }
 }
+@media (min-width: 769px) {
+    .navbar-brand img {
+      width: 200px;
+      height: 50px;
+    }
 
-/* Container for content alignment */
-.profil-section .container {
-    max-width: 1500px;
-    width: 100%;
-}
+  }
 
-
-
-.img-container {
-    max-width: 100%;
-    padding: 0 15px;
-}
-.row {
-    display: flex;
-    justify-content: center;
-}
-.col {
-    flex: 1;
-    padding: 10px;
-    max-width: 50%;
-    text-align: center;
-}
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-}
+  

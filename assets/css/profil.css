@@ -1,0 +1,36 @@
+.profil-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Container for content alignment */
+.profil-section .container {
+    max-width: 1500px;
+    width: 100%;
+}
+
+
+
+.img-container {
+    max-width: 100%;
+    padding: 0 15px;
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+.col {
+    flex: 1;
+    padding: 10px;
+    max-width: 50%;
+    text-align: center;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
