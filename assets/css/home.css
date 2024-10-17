@@ -50,3 +50,30 @@
 #hero p {
     font-size: 1.2em;
 }
+.btn-secondary {
+  background-color: transparent !important;
+  border: none !important;
+  color: black !important;
+  padding: 5px 10px;
+  font-size: 14px;
+  box-shadow: none !important;
+}
+
+.btn-secondary:focus, .btn-secondary:hover, .btn-secondary:active {
+  background-color: transparent !important;
+  color: black !important;
+  box-shadow: none !important;
+}
+
+.dropdown-menu {
+  min-width: 120px;
+}
+
+.dropdown-item {
+  padding: 8px 10px;
+  font-size: 13px;
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+}
