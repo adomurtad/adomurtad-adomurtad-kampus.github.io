@@ -11,6 +11,9 @@ body {
     background-color: #29d1bba9;
     color: #333;
     line-height: 1.6;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    min-height: 100vh;
 }
 
 h1, h2, h3 {
@@ -61,6 +64,8 @@ footer {
     color: #fff;
     padding: 20px;
     text-align: center;
+    text-align: center;
+    padding: 10px 0;
 }
 
 footer p a {
