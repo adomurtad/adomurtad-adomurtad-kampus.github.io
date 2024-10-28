@@ -7,7 +7,10 @@
     max-width: 1300px;
     margin: 20px auto;
 }
-
+h1 {
+  margin: 20px auto;
+  font-weight: 500;
+}
 .text-container {
   text-align: center;
 }

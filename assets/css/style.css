@@ -112,6 +112,7 @@ footer p a:hover {
         text-align: center;
         margin-top: 20px;
     }
+    
 }
 @media (min-width: 769px) {
     .navbar-brand img {
@@ -121,4 +122,12 @@ footer p a:hover {
 
   }
 
+@media (min-width: 992px) {
+    #sidebarToggle {
+        display: none;
+    }
+    .sidebar {
+        transform: translateX(0);
+    }
+}
   

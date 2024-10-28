@@ -14,7 +14,9 @@
     width: 100%;
 }
 
-
+h1 {
+    font-weight: 500;
+}
 
 .img-container {
     max-width: 100%;
@@ -23,6 +25,7 @@
 .row {
     display: flex;
     justify-content: center;
+    margin: 20px auto;
 }
 .col {
     flex: 1;
