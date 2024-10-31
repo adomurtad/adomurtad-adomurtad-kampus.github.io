@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ringkasan Total Beasiswa</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+    <div class="container my-5">
+      <h2 class="text-center mb-4">Ringkasan Total Beasiswa per Semester</h2>
+  
+      <!-- Ringkasan Beasiswa Semester 1 -->
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Semester 1</h5>
+          <p class="card-text">Total Beasiswa: Rp 450,000,000</p>
+          <p class="card-text">Jumlah Penerima: 155 Mahasiswa</p>
+          <!-- Tombol Lihat Lainnya -->
+          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#semester1Modal">Lihat Lainnya</a>
+        </div>
+      </div>
+      
+      <!-- Ringkasan Beasiswa Semester 2 -->
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Semester 2</h5>
+          <p class="card-text">Total Beasiswa: Rp 500,000,000</p>
+          <p class="card-text">Jumlah Penerima: 160 Mahasiswa</p>
+          <!-- Tombol Lihat Lainnya -->
+          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#semester2Modal">Lihat Lainnya</a>
+        </div>
+      </div>
+      
+      <!-- Modal untuk Detail Beasiswa Semester 1 -->
+      <div class="modal fade" id="semester1Modal" tabindex="-1" aria-labelledby="semester1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="semester1ModalLabel">Detail Beasiswa Semester 1</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <ul>
+                <li>Beasiswa Prestasi: 50 penerima - Rp 100,000,000</li>
+                <li>Beasiswa Kurang Mampu: 75 penerima - Rp 150,000,000</li>
+                <li>Beasiswa Unggulan: 30 penerima - Rp 200,000,000</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Modal untuk Detail Beasiswa Semester 2 -->
+      <div class="modal fade" id="semester2Modal" tabindex="-1" aria-labelledby="semester2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="semester2ModalLabel">Detail Beasiswa Semester 2</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <ul>
+                <li>Beasiswa Prestasi: 60 penerima - Rp 120,000,000</li>
+                <li>Beasiswa Kurang Mampu: 80 penerima - Rp 160,000,000</li>
+                <li>Beasiswa Unggulan: 20 penerima - Rp 220,000,000</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
